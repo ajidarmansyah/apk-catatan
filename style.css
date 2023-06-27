@@ -38,39 +38,13 @@ header{
     background-color: white;
 }
 
-nav{
-    display: flex;
-    margin-top: 40px ;
-    margin-left: 200px;
-}
-
-nav h3{
-    width: 200px;
-    text-align: center;
-    background-color: rgb(9,0,148);
-    color: white;
-    border-radius: 20px;
-    padding: 10px;
-    margin: 0 10px;
-    transition: 0.2s;
-    border: 2px solid rgb(9,0,148);
-}
-
-nav h3:hover{
-    border: 2px solid rgb(9,0,148);
-    background-color: white;
-    color: black;
-    cursor: pointer;
-}
-
 main{
     width: 1160px;
     margin: 20px auto;
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
-    background-color: white;
-    border: 3px solid rgb(4,0,73);
+    
 }
 
 .content{
