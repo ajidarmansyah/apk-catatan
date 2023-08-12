@@ -1,3 +1,8 @@
+body{
+    background-color: #ddd;
+    font-family: 'Quicksand', sans-serif;
+}
+
 .burger-btn{
     width: 40px;
     height: 5px;
@@ -9,24 +14,53 @@
 .navbar-brand{
     margin-left: 25px;
     font-size: 20px;
+    font-weight: bold;
 }
 
-.tombol{
+.tombol-burger{
     cursor: pointer;
     margin-top: 5px;
 }
 
-.tombol-konten{
-    display: block;
-    width: 80%;
-    border-radius: 10px;
-    margin: 10px auto;
-    text-align: left;
+.sidebar{
+    position: absolute;
+    width: 70px;
+    min-height: 100vh;
+    padding-top: 20px;
 }
 
-.tombol-konten:hover{
+.sidebar-effect{
+    width: 200px;
+}
+
+.catatan{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.catatan:hover{
+    background-color: #ddd;
+}
+.catatan.click{
     background-color: #ffc107;
-    font-weight: bold;
+}
+
+.selected{
+    background-color: #ffc107;
+}
+
+.book-icon{
+    margin: 12px;
+}
+
+.main-contant{
+    width: 75%;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
 }
 
 nav .btn{
