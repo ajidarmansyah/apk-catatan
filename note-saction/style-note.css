@@ -1,0 +1,55 @@
+#judul{
+    display: block;
+    width: 80%;
+    height: 40px;
+    margin: 50px auto 2px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#judul::placeholder{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#judul:focus{
+    border-bottom: 2px solid #ffc107;
+}
+
+#contant-type{
+    width: 80%;
+    display: block;
+    resize: none;
+    outline: none;
+    border: none;
+    margin: 0 auto 30px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#tombol{
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-family: 'Quicksand';
+}
+
+#tombol-kembali{
+    display: inline-block;
+    padding: 10px 20px;
+    float: right;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-family: 'Quicksand';
+}
+
+
+@media (min-width: 768px){
+    #tombol{
+        margin-right: 150px;
+    }
+}

@@ -1,9 +1,15 @@
 const burgerBtn = document.querySelector('.tombol-burger');
 const sideBar = document.querySelector('.sidebar');
 const iconSidebar = document.querySelectorAll('.catatan');
+const iconContant = document.querySelectorAll('.icon-contant')
 
 function sidebarEffect() {
     sideBar.classList.toggle('sidebar-effect');
+    iconSidebar.forEach(el => el.classList.toggle('icon-effect'));
+    iconContant.forEach(el => {
+        el.classList.toggle('hidden');
+        el.classList.toggle('block');
+    });
 
 };
 
