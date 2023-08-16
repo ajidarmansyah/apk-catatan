@@ -5,7 +5,7 @@ const iconContant = document.querySelectorAll('.icon-contant')
 
 function sidebarEffect() {
     sideBar.classList.toggle('sidebar-effect');
-    iconSidebar.forEach(el => el.classList.toggle('icon-effect'));
+    iconSidebar.forEach(el => el.classList.toggle('iconeffect'));
     iconContant.forEach(el => {
         el.classList.toggle('hidden');
         el.classList.toggle('block');

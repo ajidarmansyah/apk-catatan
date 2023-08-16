@@ -37,9 +37,7 @@ body{
     width: 200px;
 }
 
-.icon-effect{
-    width: 280px;
-}
+
 
 .catatan{
     width: 50px;
@@ -56,6 +54,10 @@ body{
     background-color: #ffc107;
 }
 
+.iconeffect{
+    width: 180px;
+}
+
 .hidden{
     display: none;
 }
@@ -68,7 +70,7 @@ body{
     background-color: #ffc107;
 }
 
-.book-icon{
+.note-icon{
     margin: 12px;
 }
 
@@ -78,7 +80,7 @@ body{
     margin-left: 10px;
     margin-top: 40px;
     border-radius: 5px;
-    overflow: auto;
+    overflow: hidden;
     padding: 20px;
     box-sizing: border-box;
     box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
